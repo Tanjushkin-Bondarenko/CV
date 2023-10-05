@@ -1,3 +1,31 @@
 header{
+    height: 35%;
+    padding: 15px 15%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #535da6;
+    color: #cecece;
+    h2{
+        padding-bottom: 7px;
+    }
+    h2,
+    h3{
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;;
+    }
+    #contact_info{
+        padding-top: 15px;
+        width: 40vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    p{
+        margin: 4px;
+        min-width: 25vw;
+        span{
+            font-weight: 800;
+        }
+    }
+    }
     
 }
