@@ -48,20 +48,25 @@ main #education {
 main #education .educat_block {
   padding: 7px 0;
 }
-main #education #experience {
+main #experience {
   max-width: 40vw;
 }
-main #education #experience h4 {
+main #experience h4 {
   margin: 16px 0 12px 0;
 }
-main #education #experience #tools {
+main #experience #tools {
   display: grid;
   grid-template-columns: 15vw 15vw;
   row-gap: 4px;
 }
-main #education #experience a {
+main #experience a {
   display: block;
   padding: 5px 0;
+}
+
+footer {
+  height: 20px;
+  background-color: #535da6;
 }
 
 body {
