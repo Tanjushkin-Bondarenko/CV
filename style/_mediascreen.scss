@@ -42,16 +42,29 @@ main{
 
 }
 @media screen and (max-width: 500px) {
+    header{
+        h2{font-size: 18px;
+        }
+        h3{
+         font-size: 15px;
+        }
+         #contact_info{
+             font-size: 14px;
+         }
+     }
+ 
     main{
         flex-direction: column;
         justify-content: center;
         text-align: center;
-      
+        h4{
+            font-size: 16px;
+        }
+        p, 
+        a{font-size: 14px;
+        }
         #education{
        min-width: 80vw;
-            .educat_block{
-                padding: 7px 0;
-            }
         }
             #experience{
             max-width: 80vw;
