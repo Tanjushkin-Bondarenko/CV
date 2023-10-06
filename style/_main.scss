@@ -1,8 +1,7 @@
 main{
     display: flex;
     justify-content: space-between;
-    padding: 0 15%;
-    height: 75%;
+    padding: 0 15% 15px 15%;
     h4{
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
@@ -23,7 +22,8 @@ main{
             }
             #tools{
                 display: grid;
-                grid-template-columns: 15vw 15vw;
+                grid-template-columns: 200px 200px;
+                justify-content: space-between;
                 row-gap: 4px;
             }
             a{
@@ -31,5 +31,4 @@ main{
                 padding: 5px 0;
             }
         }
-    
 }

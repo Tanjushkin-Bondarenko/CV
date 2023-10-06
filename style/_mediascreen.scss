@@ -1,0 +1,63 @@
+@media screen and (max-width: 777px) {
+    header{
+        padding: 10px 3%;
+        #photo{
+            width: 170px;
+            padding-right: 10px;
+        }  
+        #contact_info{
+            padding-top: 10px;
+            width: 65vw;
+        }
+    }
+main{
+    padding: 0 3% 15px 3%;
+    #education{
+        width: 20vw;
+        .educat_block{
+            padding: 7px 0;
+        }
+    }
+        #experience{
+        max-width: 65vw;
+            h4{
+             margin: 10px 0;
+            }
+        }
+}
+}
+@media screen and (max-width: 540px) {
+    header{
+       flex-wrap: wrap;
+       justify-content: center;
+       h2,
+       h3{
+        text-align: center;
+       }
+        #contact_info{
+            padding-top: 10px;
+            width: 85vw;
+        }
+    }
+
+}
+@media screen and (max-width: 500px) {
+    main{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      
+        #education{
+       min-width: 80vw;
+            .educat_block{
+                padding: 7px 0;
+            }
+        }
+            #experience{
+            max-width: 80vw;
+            #tools{
+                grid-template-columns: 100px 100px;
+            }
+            }
+    }
+}
